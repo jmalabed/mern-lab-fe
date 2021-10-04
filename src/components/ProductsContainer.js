@@ -24,7 +24,10 @@ const ProductsContainer = (props) => {
     <Product product={prod} onClick={handleClick}></Product>
   ));
   // look for all products => all prodcusts list from FE => map that, for each product product._id => make <Product id={product._id}></Product>
-  return <div>{productsCompArr}</div>;
-};
+  return (
+    <div className="flex">
+      {productsCompArr}
+    </div>
+  )};
 
 export default ProductsContainer;

@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,28 @@
     transform: rotate(360deg);
   }
 }
+
+.border{
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.jimg{
+  width:100%;
+}
+
+.flex{
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.cardWidth{
+  width: 30%;
+  max-width: 30%;
+}
+
+.btn-light {
+      background-color: orange;
+      color: white;
+    }
